@@ -1,0 +1,28 @@
+{
+  "name": "customer-suggestion-form-using-mongodb",
+  "version": "1.0.0",
+  "description": "This is a simple customer suggestion form which collects suggestions from customers online and stores them in a MongoDB.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanjay-72/Customer-Suggestion-Form-using-MongoDB.git"
+  },
+  "keywords": [
+    "Suggestion",
+    "form",
+    "using",
+    "Mongo",
+    "DB",
+    "Suggestion",
+    "form"
+  ],
+  "author": "Sanjay Kumar Konakandla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sanjay-72/Customer-Suggestion-Form-using-MongoDB/issues"
+  },
+  "homepage": "https://github.com/sanjay-72/Customer-Suggestion-Form-using-MongoDB#readme"
+}
