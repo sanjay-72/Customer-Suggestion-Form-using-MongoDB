@@ -10,15 +10,23 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 
+    <!-- Google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Dancing+Script&family=Satisfy&display=swap"
+        rel="stylesheet">
+
     <!-- Linking my styles.css -->
     <link rel="stylesheet" href="public/styles.css">
     <title>Suggestion Form</title>
+
 </head>
 
 <body>
     <h1 id="jsWarning">Please enable Java Script in your browser to see this website fully functional.</h1>
     <img src="public/loader1.gif" alt="Loader" id="Loader">
-    <h1 id="header">Sanjay Travels <br>Customer suggestion form.</h1>
+    <h1 id="header"><strong style="color: #f9a; font-size: 46px;">Sanjay Travels</strong><br> Customer suggestion
+        form</h1>
     <div id="mainDiv" class="">
         <form action="/" method="post">
             <table>
@@ -28,7 +36,7 @@
                     </td>
                     <td>
                         <input type="text" name="Name" placeholder="Full name" id="fullNameInput" spellcheck="false"
-                            autocomplete="off"><br><br>
+                            autocomplete="off" required><br><br>
                     </td>
                 </tr>
                 <tr>
@@ -36,8 +44,8 @@
                         <label for="email">Email : </label><br><br>
                     </td>
                     <td>
-                        <input type="email" name="email" placeholder="jhondoe@domain.com" spellcheck="false"
-                            autocomplete="off"><br><br>
+                        <input type="email" name="email" placeholder="sample@domain.com" spellcheck="false"
+                            autocomplete="off" required><br><br>
                     </td>
                 </tr>
                 <tr>
@@ -45,7 +53,8 @@
                         <label for="suggestion">Suggestion : </label><br><br>
                     </td>
                     <td>
-                        <textarea id="suggestion" name="suggestion" rows="6" cols="24"></textarea>
+                        <textarea placeholder="Your suggestions here." id="suggestion" name="suggestion" rows="6"
+                            cols="24" required></textarea>
                     </td>
                 </tr>
             </table>

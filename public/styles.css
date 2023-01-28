@@ -16,9 +16,6 @@ body {
 
     #myImg {
         display: none;
-        margin: 0 auto 0 auto;
-        padding: 0;
-        width: 60px;
     }
 }
 
@@ -29,6 +26,7 @@ body {
     border-width: 1px;
     padding: 20px;
     margin: 60px;
+    margin-top: 20px;
     border-radius: 20px;
 }
 
@@ -45,12 +43,12 @@ body {
 #myImg {
     position: relative;
     top: auto;
-    bottom: 200px;
+    bottom: 150px;
     width: 600px;
     border: solid;
     border-width: 2px;
     border-color: rgb(35, 234, 234);
-    border-radius: 100px;
+    border-radius: 90px;
     margin: auto;
 }
 
@@ -77,19 +75,22 @@ textarea:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.304);
 }
 
+textarea {
+    resize: none;
+}
 
 #jsWarning {
     text-align: center;
     color: red;
-
 }
 
 #header {
     text-align: center;
     color: #55a6f1;
     border-radius: 20px;
-    margin: 2% 25% 2% 25%;
-    /* font-size: 90%; */
+    margin: 2% 20% 2% 20%;
     padding: 12px;
-    outline: 5px dotted green;
+    outline: 3px dotted rgb(0, 183, 0);
+    font-family: 'Satisfy', cursive;
+    font-size: 32px;
 }
