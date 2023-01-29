@@ -15,7 +15,7 @@ setTimeout(function () {
 }, 6000);
 
 VanillaTilt.init(document.querySelectorAll(".tilt"), {
-    max: 15,
+    max: 20,
     speed: 400
 });
 
