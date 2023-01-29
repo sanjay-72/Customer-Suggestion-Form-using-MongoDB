@@ -1,6 +1,10 @@
 body {
     text-align: center;
-    background-color: rgb(201, 246, 240);
+    background-color: white;
+}
+
+.bgGradient {
+    background: linear-gradient(to bottom right, rgb(209, 246, 241), rgb(29, 214, 190));
 }
 
 @media screen and (max-width: 1080px) {
@@ -78,6 +82,10 @@ textarea {
     resize: none;
 }
 
+.btn:active {
+    opacity: 50%;
+}
+
 #jsWarning {
     text-align: center;
     color: red;
@@ -90,7 +98,7 @@ textarea {
     border-radius: 20px;
     margin: 2% 20% 2% 20%;
     padding: 12px;
-    outline: 3px dotted rgb(0, 183, 0);
+    outline: 3px dotted rgb(56, 1, 186);
     font-family: 'Satisfy', cursive;
     font-size: 32px;
 }

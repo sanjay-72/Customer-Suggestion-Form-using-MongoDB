@@ -13,6 +13,7 @@ setTimeout(function () {
         "body").style.visibility = "visible";
     document.getElementById("fullNameInput").focus();
     document.body.style.overflow = "auto";
+    document.body.classList.add("bgGradient");
     document.body.style.backgroundColor = 'rgb(' + 206 + ',' + 249 + ',' + 240 + ')';
 }, 6000);
 
