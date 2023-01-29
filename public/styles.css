@@ -86,6 +86,7 @@ textarea {
 #header {
     text-align: center;
     color: #55a6f1;
+    background-color: rgb(180, 255, 246);
     border-radius: 20px;
     margin: 2% 20% 2% 20%;
     padding: 12px;
