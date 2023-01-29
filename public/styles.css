@@ -1,7 +1,6 @@
 body {
     text-align: center;
     background-color: rgb(201, 246, 240);
-    overflow: hidden;
 }
 
 @media screen and (max-width: 1080px) {

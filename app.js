@@ -22,7 +22,7 @@ const CustomerSuggestion = mongoose.model('CustomerSuggestion', customerSchema);
 
 
 app.post("/", function (req, res) {
-    console.log(req.body);
+    // console.log(req.body);
     var newEntry = new CustomerSuggestion({ name: req.body.Name, email: req.body.email, suggestion: req.body.suggestion });
     newEntry.save();
     res.sendFile(__dirname + '/thankYou.html');

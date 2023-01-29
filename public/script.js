@@ -3,6 +3,7 @@ document.querySelector(
 document.getElementById("jsWarning").style.display = "none";
 document.querySelector(
     "#Loader").style.visibility = "visible";
+document.body.style.overflow = "hidden";
 document.body.style.backgroundColor = "white";
 
 setTimeout(function () {
@@ -11,6 +12,7 @@ setTimeout(function () {
     document.querySelector(
         "body").style.visibility = "visible";
     document.getElementById("fullNameInput").focus();
+    document.body.style.overflow = "auto";
     document.body.style.backgroundColor = 'rgb(' + 206 + ',' + 249 + ',' + 240 + ')';
 }, 6000);
 
