@@ -12,11 +12,9 @@ setTimeout(function () {
     document.querySelector(
         "body").style.visibility = "visible";
     document.getElementById("fullNameInput").focus();
-    document.body.style.overflow = "auto";
     document.body.classList.add("bgGradient");
     document.body.style.backgroundColor = 'rgb(' + 206 + ',' + 249 + ',' + 240 + ')';
 }, 6000);
-document.body.style.overflow = "hidden";
 VanillaTilt.init(document.querySelectorAll(".tilt"), {
     max: 20,
     speed: 400
