@@ -16,7 +16,7 @@ setTimeout(function () {
     document.body.classList.add("bgGradient");
     document.body.style.backgroundColor = 'rgb(' + 206 + ',' + 249 + ',' + 240 + ')';
 }, 6000);
-
+document.body.style.overflow = "hidden";
 VanillaTilt.init(document.querySelectorAll(".tilt"), {
     max: 20,
     speed: 400

@@ -4,7 +4,7 @@ body {
 }
 
 .bgGradient {
-    background: linear-gradient(to bottom right, rgb(209, 246, 241), rgb(29, 214, 190));
+    background-color: rgb(29, 214, 190);
 }
 
 @media screen and (max-width: 1080px) {
